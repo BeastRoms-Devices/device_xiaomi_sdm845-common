@@ -97,6 +97,9 @@ PRODUCT_COPY_FILES += \
 # Net
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
+	
+# Performance
+include vendor/qcom/common/qti-vendor.mk
 
 # Power
 PRODUCT_PACKAGES += \
